@@ -48,4 +48,12 @@ Send bugs or feature request though the github page.
 
 ## Screenshots
 
+### Windows ###
 
+![windows](https://github.com/icedman/ashlar-code/raw/development/screenshots/windows-v.0.1.0.png "windows")
+
+![windows](https://github.com/icedman/ashlar-code/raw/development/screenshots/windows-v.0.1.0-themed.PNG "windows theme selection")
+
+### Linux ###
+
+![linux](https://github.com/icedman/ashlar-code/raw/development/screenshots/linux-v.0.1.0.png "linux")
