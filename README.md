@@ -1,6 +1,6 @@
-# Ashlar Code
+# AshlarCode
 
-Ashlar Code is a modern code editor built with the Flutter API. It is runs on native code and aims to be fast and smooth.
+AshlarCode is a modern code editor built with the Flutter API. It runs on native code and aims to be fast, smooth, and extensible.
 
 ## Features
 
@@ -13,26 +13,39 @@ Ashlar Code is a modern code editor built with the Flutter API. It is runs on na
 * Search with plaintext, or regular expressions
 * Search and Replace
 
-* Opens very large files
-* Sidebar file explorer
-* Multiple Tabbed views
+* Sidebar file explorer with file type icons
+* Multiple opened documents with tabbed views
 * Supports virtual and physical keyboards
+
+* Opens very large files
 
 * Basic Git support for clone, pull, merge, checkout, commit, push with SSH keys authentication.
 
 ## Open source
 
-Earlier versions of Ashlar Code and/or its variants are opensourced.
+AshlarCode is released as a paid mobile app to support its development. Desktop versions will be available as free downloads. Early mobile versions will also released as free downloads.
+
+* https://github.com/icedman/ashlar-code/releases
+
+Earlier versions of AshlarCode and/or its variants are opensourced.
 
 * https://github.com/icedman/ashlar-text
 * https://github.com/icedman/tashlar
-
-Ashlar Code is a paid mobile app to support its development. Desktop versions are available as free downloads. Early mobile versions are also released as free downloads.
-
-* https://github.com/icedman/ashlar-code/releases
 
 ## Issues and Feature requests
 
 Send bugs or feature request though the github page.
 
 * https://github.com/icedman/ashlar-code/issues
+
+## Known limitations
+
+* Files with more than 10000 lines will disable word wrapping.
+* Tabs are currently automatically converted to space characters.
+* Utf8 characters are only partially supported.
+* Git: Only authentication via SSH key is supported. Username + Password currently is not supported by github.com and by AshlarCode.
+* Git: Conflicts will have to be resolved manually or by other more advanced git client apps.
+
+## Screenshots
+
+
